@@ -334,7 +334,7 @@ export default function App() {
               <div className="stat stat-accent">
                 <span className="stat-label">Earned reward</span>
                 <span className="stat-value mono glow-text">{pendingReward.toFixed(8)}</span>
-                <span className="stat-unit">VXC</span>
+                <span className="stat-unit">vUSDC</span>
               </div>
               <div className="stat">
                 <span className="stat-label">Wallet balance</span>
