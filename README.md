@@ -36,7 +36,7 @@ second and settled directly on-chain.
 
 Set in `src/contractConfig.js`:
 
-- Staking contract: `0xf36bC6Bc9fD0AEcc9Ee657351D2cC4C351ba5f59`
+- Staking contract: `0xba6EC7597B5CC6353D2CB2c88AF6004063D96E4e`
 - vUSDC (Arc native token): `0x3600000000000000000000000000000000000000`
 
 To point the frontend at a different deployment, update
