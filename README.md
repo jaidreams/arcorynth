@@ -2,8 +2,17 @@
 
 **Stake. Grow. Arcorynth.** — A vUSDC staking dApp built on Arc Testnet.
 
-Deposit vUSDC into the vault and earn continuous yield, accrued second by
-second and settled directly on-chain.
+Deposit vUSDC into the vault and earn demo rewards over time.
+
+> ⚠️ **Testnet prototype only.** Use test vUSDC only; do not send real funds.
+
+## Live demo
+
+https://arcorynth.vercel.app/
+
+## Contract explorer
+
+https://testnet.arcscan.app/address/0xba6EC7597B5CC6353D2CB2c88AF6004063D96E4e
 
 ## Tech stack
 
