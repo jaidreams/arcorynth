@@ -9,7 +9,7 @@ export const ARC_TESTNET = {
 
 // ---- Your deployed contract addresses ----
 // (Same values you used in Remix — swap these if you redeploy)
-export const STAKING_CONTRACT_ADDRESS = '0xf36bC6Bc9fD0AEcc9Ee657351D2cC4C351ba5f59'
+export const STAKING_CONTRACT_ADDRESS = '0xba6EC7597B5CC6353D2CB2c88AF6004063D96E4e'
 export const USDC_ADDRESS = '0x3600000000000000000000000000000000000000'
 
 // ---- Minimal ABI: only the functions the UI needs ----
@@ -20,6 +20,8 @@ export const STAKING_ABI = [
   'function getPendingReward(address user) external view returns (uint256)',
   'function stakes(address) external view returns (uint256 amount, uint256 lastUpdateTime, uint256 rewardEarned)',
   'function rewardRatePerSecond() external view returns (uint256)',
+  'function setRewardRate(uint256 newRate) external',
+  'function owner() external view returns (address)',
 ]
 
 export const USDC_ABI = [
